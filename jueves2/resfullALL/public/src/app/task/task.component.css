@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
+*{
+    font-family: 'Oswald', sans-serif;
+}
+/*Main*/
+.mainHoldTasks{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+}
+/* Task box */
+.tasksHolder{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    flex: 1;
+    align-items: center;
+}
+.holdTask{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 3px solid black ;
+    margin: 2%;
+    padding: 2%;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    width: 80%;
+    background-color: darkgray;
+    font-weight: bold;
+}
+.tasksButtons{
+    display: flex;
+    flex-direction: column;
+}
+.holdTaskinfo{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 2%;
+    padding: 2%;
+    width: 10%;
+    flex: 1;
+}
+.showInfo{
+    background-color: 0;
+}
